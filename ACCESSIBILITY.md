@@ -10,6 +10,8 @@ Native buttons and form controls; labeled and grouped choices; visible keyboard 
 
 All six story paths and debriefs, keyboard choice controls, Enter activation, dialog focus return, 320-pixel reflow, writing persistence within a playthrough, replay, note download, and the speech disclosure before microphone access. Flat text and control colors were reviewed and low-contrast labels and borders corrected.
 
+Readability update: a local 1280-pixel preview confirmed the updated system typography and a welcome quote separated from Maya’s portrait. Other welcome breakpoints received static style checks.
+
 ## Still to verify
 
 A complete WCAG 2.2 AA audit; end-to-end VoiceOver and NVDA use; actual 200% and 400% zoom; text-spacing overrides; Windows forced-color rendering; and real microphone transcription on each target browser and device. Representative learner testing is also pending.

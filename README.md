@@ -28,6 +28,6 @@ The app does not save audio. Writing stays in the open page unless the learner d
 
 ## About the prototype
 
-This independent portfolio concept is not affiliated with NBCUniversal. The park and characters are fictional. No official logos or proprietary company fonts are included; typography uses system-font substitutes. The setting and character illustrations were generated specifically for this prototype using an AI image-generation tool.
+This independent portfolio concept is not affiliated with NBCUniversal. The park and characters are fictional. No official logos or proprietary company fonts are included; typography uses a readable system sans-serif stack with moderate heading weights. The setting and character illustrations were generated specifically for this prototype using an AI image-generation tool.
 
 This is a browser prototype, not a native Articulate Storyline `.story` project. See [accessibility review and limits](ACCESSIBILITY.md).

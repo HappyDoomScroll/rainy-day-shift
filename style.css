@@ -16,7 +16,7 @@
 .instruction-list li::before{content:none}.instruction-list .step-number{position:absolute;left:0;top:1px;width:27px;height:27px;border-radius:50%;background:#e5b770;color:#17343a;display:grid;place-items:center;font-size:13px;font-weight:700}.scene-title,.debrief-title{color:var(--ink)}
 
 /* Entertainment-studio direction; system-font substitutes, no proprietary font files. */
-:root{--ink:#09294e;--navy:#061d3d;--cream:#f6f9ff;--muted:#425d78;--line:#d0dce9;--amber:#ffcf36;--white:#ffffff;--font:'Avenir Next','Avenir','Century Gothic',Arial,sans-serif}
+:root{--ink:#09294e;--navy:#061d3d;--cream:#f6f9ff;--muted:#425d78;--line:#d0dce9;--amber:#ffcf36;--white:#ffffff;--font:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}
 body{background:#f0f5fb}.app-shell{position:relative}.app-shell:before{content:"";position:absolute;top:0;left:48px;right:48px;height:4px;background:linear-gradient(90deg,#f5c533 0% 16.6%,#ee8c2b 16.6% 33.3%,#d94a5b 33.3% 50%,#8360a7 50% 66.6%,#3384c4 66.6% 83.3%,#4e9865 83.3%)}.wordmark{color:#0b2d58;font-size:10px}.mark{color:#065ac5;font-family:var(--font);font-weight:600}.episode-label{color:#184e91}.briefing{border-color:#cbd9e9;border-radius:4px;position:relative}.briefing-copy{padding-top:40px}.briefing h1{font-family:var(--font);font-size:62px;line-height:.99;font-weight:800;letter-spacing:-2px;text-transform:uppercase;color:#082b57}.briefing h1 em{font-style:normal;color:#0757bb}.briefing-copy .eyebrow{color:#0757bb;font-size:11px}.briefing-lead{font-family:var(--font);font-size:24px;font-weight:650;color:#12395f}.briefing-intro,.instruction-list span{color:#3e5870}.briefing-art{background:radial-gradient(ellipse at 50% 35%,#ffffff 0%,#d9eaff 55%,#a9c9ec 100%)}.briefing-art:before{opacity:.14}.briefing-art-note .eyebrow{color:#164779}.briefing-art-note p{font-family:var(--font);font-weight:650;line-height:1.15;color:#143f71}.briefing-caption{background:#dfebf7;color:#173e69}.briefing-caption strong{font-family:var(--font);font-weight:700}.briefing-access{color:#405d78}.instruction-list .step-number{background:#0757bb;color:white}.focus-options input,.cue-options input,.self-check input{accent-color:#0757bb}.button{background:#0757bb;color:#ffffff;border-color:#0757bb}.button:hover{background:#06499d}.button.secondary{background:white;color:#15477f;border-color:#7089a4}.button.secondary:hover{background:#e7f0fc}.quiet-button,.icon-button{color:#173c65}.progress{background:#e5eef9;border-color:#c9d8ea}.progress span{color:#405a76}.progress .active{color:#064ca6}.progress .active:after{background:#0757bb}.scene-title,.debrief-title{font-family:var(--font);font-weight:700;letter-spacing:-.7px;color:#12395f}.dialogue{font-family:var(--font);font-weight:500;font-size:23px;line-height:1.45;letter-spacing:-.3px}.dialogue-card .eyebrow{color:#3c5f83}.narration{color:#425d70}.stage-direction{color:#516676}.radio{background:#edf3fc;border-color:#0757bb;color:#2e4b69}.radio b{color:#31577b}.selected-quote{color:#49637c}.selected-quote b{color:#254c75}.choice{color:#113c67;background:#f5f8fd;border-color:#7b92aa}.choice:hover{background:#e4effd;border-color:#0757bb}.choice-number,.choice-arrow{color:#315b87}.choice-number{border-color:#738da7;font-family:var(--font)}.character-tag{background:#09294ee8;border-color:#ffcf36}.stage::after{background:linear-gradient(90deg,#0a2c50d9 0%,#102d4777 43%,#102c3108 80%),linear-gradient(0deg,#08294c4d,transparent 70%)}.time-pill{background:#08294c}.scene-top>span{background:#08294cf0}.practice-cue,.practice-banner{background:#eaf2ff;border-color:#0757bb;color:#224e7c}.reflection{background:#edf4ff}.reflection h3,.transfer .field-label{font-family:var(--font);font-weight:650}.reflection label,.evidence-block p,.transfer p{color:#405d78}.reflection details p,.draft-comparison p,.draft-recall p{font-family:var(--font);font-size:17px}.draft-comparison{border-color:#0757bb}.speech-button{background:#f2f6fd;color:#184574;border-color:#7089a4}.speech-button:hover{background:#e6effa}.speech-button[aria-pressed=true]{background:#dfeeff;border-color:#0757bb}.speech-button:disabled{background:#e9eef5;color:#4f627b}.speech-status{color:#2f5479}.speech-disclosure,.local-note,.debrief-footnote,.small-note,.site-footer{color:#49637b}.cue-feedback{background:#edf4ff;border-color:#0757bb;color:#2f5278}.cue{border-color:#7b92aa}.cue legend{color:#173d67}.debrief-heading .eyebrow{color:#0757bb}.debrief-intro{color:#425f79}.path-mark{background:#e7f0fc;color:#224c7a}.debrief h3{color:#173f6c}.text-button{color:#195b9d}.cast-grid h3,dialog h2{font-family:var(--font);font-weight:650}.cast-grid span{color:#0757bb}.cast-grid p,dialog p{color:#405c77}.form-error{color:#9a3025}.notice{background:#08294cee}.self-check{border-color:#afc4de}textarea{border-color:#7089a4;color:#1d436c}.button:focus-visible,.quiet-button:focus-visible,.icon-button:focus-visible,.choice:focus-visible,.speech-button:focus-visible,a:focus-visible,textarea:focus-visible,input:focus-visible,summary:focus-visible{outline-color:#061d3d;box-shadow:0 0 0 6px white}
 @media(max-width:1100px){.briefing h1{font-size:52px}.app-shell:before{left:28px;right:28px}}
 @media(max-width:760px){.briefing h1{font-size:48px}.app-shell:before{left:14px;right:14px}.stage::after{background:linear-gradient(0deg,#08294c 30%,#102c3122 85%)}.dialogue{font-size:22px}.briefing-art-note p{font-size:24px}}
@@ -29,3 +29,42 @@ body{background:#f0f5fb}.app-shell{position:relative}.app-shell:before{content:"
 @media(max-width:440px){.briefing h1{font-size:39px}.briefing-copy{padding:26px 20px}.wordmark{font-size:8px}.mark{font-size:30px}.briefing-art .character{right:-35px}.briefing-caption{max-width:140px;left:10px}.briefing-art-note{right:140px}.briefing-art-note p{font-size:21px}.practice-stage .character{right:-10px}.practice-stage .character-tag{left:14px;width:calc(100% - 158px)}.progress{gap:12px;padding:15px 12px}}
 
 .enter{animation:none}
+/* Readable typography; welcome text and portrait occupy separate layout rows. */
+:root{--muted:#344b63}
+body{line-height:1.6}
+.briefing h1{font-size:clamp(2.125rem,4.4vw,3rem);font-weight:650;line-height:1.1;letter-spacing:-.03em}
+.briefing h1 em{font-weight:650}
+.briefing-lead{font-size:1.375rem;font-weight:600;line-height:1.4}
+.scene-title,.debrief-title,.reflection h3,.transfer .field-label,.cast-grid h3,dialog h2{font-weight:600;line-height:1.25}
+.briefing-intro,.instruction-list span,.narration,.practice-stage .narration,.evidence-block p,.debrief-intro,.cast-grid p,dialog p,.journal-list li,.transfer p{font-size:1rem;line-height:1.65;color:var(--muted)}
+.instruction-list{gap:18px;margin:22px 0 26px}
+.instruction-list strong{font-size:1rem;font-weight:600;line-height:1.5;margin-bottom:4px}
+.instruction-list .step-number{font-size:.8125rem;line-height:1}
+.briefing-access,.speech-disclosure,.speech-disclosure p,.local-note,.dialogue-card .local-note,.small-note,.site-footer,.stage-direction,.speech-status,.selected-quote{font-size:.875rem;line-height:1.6;color:var(--muted)}
+.choice,.support-options label,.thinking-guide p,.cue-feedback,.cue-options label,.reflection label,.self-check label,.field-label,.practice-cue,.practice-banner{font-size:.9375rem;line-height:1.6}
+.thinking-guide summary,.focus-options>label,.speech-button{font-size:.875rem}
+.focus-options select,textarea{font-size:1rem;line-height:1.6}
+.button{font-size:.9375rem;font-weight:600}
+.briefing-copy .cover-actions .button{font-size:.9375rem}
+.briefing-art{display:grid;grid-template-columns:minmax(0,1fr);grid-template-rows:auto minmax(0,1fr) auto;min-height:0;align-self:stretch;isolation:isolate}
+.briefing-art-note{position:relative;grid-column:1;grid-row:1;top:auto;right:auto;bottom:auto;left:auto;margin:0;padding:28px 30px;background:#f7fbff;border-bottom:1px solid #cbd9e9}
+.briefing-art-note .eyebrow{display:block;font-size:.75rem;line-height:1.5;letter-spacing:.12em;color:#244a73;margin:0}
+.briefing-art-note p{font-size:clamp(1.375rem,2.2vw,1.75rem);font-weight:600;line-height:1.35;letter-spacing:-.015em;color:#12395f;margin:12px 0 0}
+.briefing-art .character{position:relative;grid-column:1;grid-row:2;width:min(100%,500px);max-width:100%;height:auto;aspect-ratio:1;top:auto;right:auto;bottom:auto;left:auto;transform:none;justify-self:center;align-self:end}
+.briefing-caption{position:relative;grid-column:1;grid-row:3;top:auto;right:auto;bottom:auto;left:auto;max-width:none;width:100%;padding:24px 30px;background:#dfebf7}
+.briefing-caption strong{font-size:1.375rem;font-weight:600;line-height:1.35;margin-bottom:8px}
+.briefing-caption span{font-size:.9375rem;line-height:1.6;color:#294761}
+@media(max-width:1100px){
+  .briefing-art-note,.briefing-caption{padding:24px}
+}
+@media(max-width:760px){
+  .briefing-art{grid-template-rows:auto auto auto}
+  .briefing-art .character{width:min(78%,340px)}
+  .briefing-art-note p{font-size:1.5rem}
+  .briefing-art-note,.briefing-caption{padding:24px}
+}
+@media(max-width:440px){
+  .briefing-art-note,.briefing-caption{padding:22px 20px}
+  .briefing-art-note p{font-size:1.375rem}
+  .briefing-copy{padding:26px 20px}
+}
